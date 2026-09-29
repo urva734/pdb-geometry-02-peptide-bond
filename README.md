@@ -6,11 +6,11 @@ A pure-Python tool that validates peptide bond geometry. Checks if C-N bond betw
 Urva Sohail
 
 ## ✨ Features
-- **📏 Distance Check: Calculates C-N distance between residues
-- ✅ Validation: Flags bonds outside 1.0-1.5A range
-- 📊 Summary: Counts total violations
-- 🧹 Clean Repo: PDB ignored via .gitignore
-- 🐍 Pure Python: Only math + pathlib
+- **📏 Distance Check:** Calculates C-N distance between residues
+- **✅ Validation:** Flags bonds outside 1.0-1.5A range
+- **📊 Summary:** Counts total violations
+- **🧹 Clean Repo:** PDB ignored via .gitignore
+- **🐍 Pure Python:** Only math + pathlib
 
 ## 🧠 Logic
 1. Parse PDB: Read 1aki.pdb line by line, filter only ATOM lines
@@ -21,10 +21,10 @@ Urva Sohail
 6. Report: Count total violations
 
 ## 💻 Technologies Used
-- Python 3+: Core language
-- math.sqrt: For Euclidean distance
-- pathlib: For file handling
-- PDB Parser: Custom ATOM line parser
+- **Python 3+:** Core language
+-**math.sqrt:** For Euclidean distance
+- **pathlib:** For file handling
+- **PDB Parser:** Custom ATOM line parser
 
 ## 🚀 How to Run
 Using VS Code
