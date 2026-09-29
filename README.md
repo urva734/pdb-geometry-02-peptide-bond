@@ -13,12 +13,12 @@ Urva Sohail**
 - **🐍 Pure Python:** Only math + pathlib
 
 ## 🧠 Logic
-1. Parse PDB: Read 1aki.pdb line by line, filter only ATOM lines
-2. Extract Atoms: For each residue, get C atom (x,y,z) and N atom (x,y,z)
-3. Store: residues[res_id] = {'C': (x,y,z), 'N': (x,y,z)}
-4. Calculate Distance: Calculate distance between them
-5. Validate: If 1.0 <= distance <= 1.5 => [OK] , else [VIOLATION]
-6. Report: Count total violations
+1. **Parse PDB:** Read 1aki.pdb line by line, filter only ATOM lines
+2. **Extract Atoms:** For each residue, get C atom (x,y,z) and N atom (x,y,z)
+3. **Store:** residues[res_id] = {'C': (x,y,z), 'N': (x,y,z)}
+4. **Calculate Distance:** Calculate distance between them
+5. **Validate:** If 1.0 <= distance <= 1.5 => [OK] , else [VIOLATION]
+6. **Report:** Count total violations
 
 ## 💻 Technologies Used
 - **Python 3+:** Core language
