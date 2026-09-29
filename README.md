@@ -6,7 +6,7 @@ A pure-Python tool that validates peptide bond geometry. Checks if C-N bond betw
 Urva Sohail
 
 ## ✨ Features
-- 📏 Distance Check: Calculates C-N distance between residues
+- **📏 Distance Check: Calculates C-N distance between residues
 - ✅ Validation: Flags bonds outside 1.0-1.5A range
 - 📊 Summary: Counts total violations
 - 🧹 Clean Repo: PDB ignored via .gitignore
