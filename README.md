@@ -2,8 +2,8 @@
 
 A pure-Python tool that validates peptide bond geometry. Checks if C-N bond between consecutive residues is ~1.33A, a core rule of protein structure.
 
-👤 Author
-Urva Sohail
+**👤 Author
+Urva Sohail**
 
 ## ✨ Features
 - **📏 Distance Check:** Calculates C-N distance between residues
@@ -16,8 +16,8 @@ Urva Sohail
 1. Parse PDB: Read 1aki.pdb line by line, filter only ATOM lines
 2. Extract Atoms: For each residue, get C atom (x,y,z) and N atom (x,y,z)
 3. Store: residues[res_id] = {'C': (x,y,z), 'N': (x,y,z)}
-4. Calculate Distance: For i -> i+1, distance = sqrt((x2-x1)^2 + (y2-y1)^2 + (z2-z1)^2) between C of residue i and N of residue i+1
-5. Validate: If 1.0 <= distance <= 1.5 => [OK] else [VIOLATION]
+4. Calculate Distance: Calculate distance between them
+5. Validate: If 1.0 <= distance <= 1.5 => [OK] , else [VIOLATION]
 6. Report: Count total violations
 
 ## 💻 Technologies Used
